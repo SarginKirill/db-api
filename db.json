@@ -2,10 +2,25 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "Lorem, ipsum dolor",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias aut accusamus, in quos minus earum necessitatibus molestiae. Voluptas veritatis id necessitatibus, deleniti quisquam, modi eius vitae ratione, illo quidem quam!"
+    },
+    {
+      "id": 2,
+      "title": "Neque porro quisquam est qui dolorem ipsum",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt convallis dapibus. Duis eleifend dui rhoncus nunc commodo, in vulputate libero bibendum. Praesent a libero elementum, ornare magna id, pharetra."
+    },
+    {
+      "id": 3,
+      "title": "Praesent a libero elementum",
+      "body": "Next, we need to import the reducer function from the counter slice and add it to our store. By defining a field inside the reducer parameter, we tell the store to use this slice reducer function to handle all updates to that state."
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "text": "string"
+    }
+  ]
 }
