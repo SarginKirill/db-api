@@ -20,7 +20,17 @@
     {
       "id": 1,
       "postId": 1,
-      "text": "string"
+      "text": "Nice article"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "text": "cool"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "text": "Great, thank you"
     }
   ]
 }
